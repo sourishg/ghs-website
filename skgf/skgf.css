@@ -1,0 +1,73 @@
+#header {
+    font-family: 'Fauna One', Arial;
+    font-size: 34pt;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+    padding: 30px 0;
+}
+#nav {
+    padding: 25px;
+    background: #000;
+    overflow: hidden;
+}
+#nav ul {
+    list-style: none;
+    width: 960px;
+    margin: 0 auto;
+}
+#nav ul li {
+    float: left;
+    margin-right: 30px;
+}
+#nav ul li a:link, #nav ul li a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Fauna One', Arial;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+#nav ul li a:hover {
+    color: #f90;
+}
+#nav ul li a.selected {
+    color: #f90;
+    cursor: default;
+}
+#content {
+    padding: 20px;
+    background: #ddd;
+    border-bottom: 1px solid #999;
+}
+#content a {
+    color: #003399;
+}
+#content p {
+    width: 960px;
+    margin: 0 auto;
+    color: #000;
+    font-family: 'Fauna One', Arial;
+    font-size: 12pt;
+    line-height: 1.5em;
+    text-align: justify;
+}
+#content ul {
+    width: 960px;
+    margin: 0 auto;
+    color: #000;
+    font-family: 'Fauna One', Arial;
+    font-size: 12pt;
+    line-height: 1.5em;
+    list-style: disc; 
+}
+#content ul li {
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+#footer {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #666;
+}
